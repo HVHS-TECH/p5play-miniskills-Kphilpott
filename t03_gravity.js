@@ -10,13 +10,14 @@
 function setup() {
 	console.log("setup: idk");
     cnv = new Canvas(windowWidth, windowHeight);
+	world.gravity.y = 10;
 	bob = new Sprite(80, 99, 40, 55, d);
 
     bob.color = 'red';
 
 	bob.rotationSpeed = 2;
     bob.vel.y = 2;
-	world.gravity.y = 10;
+	
 }
 	
 /*******************************************************/
