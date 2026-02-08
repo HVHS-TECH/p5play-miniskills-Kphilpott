@@ -8,16 +8,23 @@
 // setup()
 /*******************************************************/
 function setup() {
-	console.log("setup: ");
+	console.log("setup: idk");
+    cnv = new Canvas(windowWidth, windowHeight);
+	bob = new Sprite(80, 99, 40, 55);
 
+    bob.color = 'red';
+
+	bob.rotationSpeed = 2;
+    bob.vel.x = 2;
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background('white');
 }
+
 
 /*******************************************************/
 //  END OF APP
