@@ -15,7 +15,7 @@ function setup() {
     bob.color = 'red';
 
 	bob.rotationSpeed = 2;
-    bob.vel.x = 2;
+    bob.vel.y = 2;
 }
 	
 /*******************************************************/
