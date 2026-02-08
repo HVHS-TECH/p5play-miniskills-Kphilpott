@@ -8,18 +8,18 @@
 // setup()
 /*******************************************************/
 function setup() {
-	console.log("setup: ");
+	console.log("setup: idk");
     cnv = new Canvas(windowWidth, windowHeight);
 	bob = new Sprite(x, y, w, h);
 
-    bob.color = 'ccc';
+    bob.color = 'red';
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	background('ccc');
+	background('red');
 }
 
 /*******************************************************/
