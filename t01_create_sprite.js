@@ -10,7 +10,7 @@
 function setup() {
 	console.log("setup: idk");
     cnv = new Canvas(windowWidth, windowHeight);
-	bob = new Sprite(20, 28, 20, 30);
+	bob = new Sprite(20, 28, 40, 55);
 
     bob.color = 'red';
 }
