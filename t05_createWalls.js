@@ -27,6 +27,13 @@ function setup() {
     bill.bounciness = 0.3;
 	bill.drag = 1;
 
+	jeremy = new Sprite(500, 99, 30, 35, 'd');
+    jeremy.color = 'black';
+	jeremy.rotationSpeed = -12;
+	jeremy.vel.x = -6;
+    jeremy.bounciness = 0.3;
+	jeremy.drag = 1;
+
 	ben = new Sprite(200, 70, 30, 35, 'd');
     ben.color = 'yellow';
 	ben.rotationSpeed = -61;
