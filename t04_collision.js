@@ -9,7 +9,7 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: idk");
-    cnv = new Canvas(windowWidth, windowHeight);
+    cnv = new Canvas(1200, 1200);
 	world.gravity.y = 10;
 	bob = new Sprite(180, 80, 40, 55, 'd');
 
