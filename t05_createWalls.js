@@ -18,12 +18,14 @@ function setup() {
 	bob.rotationSpeed = 2;
     bob.vel.x = 2;
 	bob.bounciness = 0.1;
+	bob.drag = 1;
 
 	bill = new Sprite(380, 99, 30, 35, 'd');
     bill.color = 'green';
 	bill.rotationSpeed = -12;
 	bill.vel.x = -6;
     bill.bounciness = 0.3;
+	bill.drag = 1;
 
 	ben = new Sprite(200, 70, 30, 35, 'd');
     ben.color = 'yellow';
@@ -31,6 +33,7 @@ function setup() {
 	ben.vel.x = -0.02;
 	ben.vel.y = -0.32;
     ben.bounciness = 0.9;
+    ben.drag = 1;
 
 	jeb = new Sprite(300, 300, 50);
 	jeb.color = 'purple';
@@ -39,7 +42,7 @@ function setup() {
 	jeb.vel.y = 2;
 	jeb.bounciness = 1;
 	jeb.friction = 3;
-	jeb.drag =1;
+	jeb.drag = 1;
 
 
 	platform_1 = new Sprite(2, 450, 5, 900, 'k');
