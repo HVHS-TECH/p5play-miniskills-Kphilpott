@@ -32,7 +32,7 @@ function setup() {
 	ben.vel.y = -0.32;
     ben.bounciness = 0.9
 
-	platform_1 = new Sprite(2, 100, 5, 900, 'k');
+	platform_1 = new Sprite(2, 450, 5, 900, 'k');
 }
 
 	
