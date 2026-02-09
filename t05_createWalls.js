@@ -29,7 +29,7 @@ function setup() {
 
 	jeremy = new Sprite(500, 99, 30, 35, 'd');
     jeremy.color = 'black';
-	jeremy.rotationSpeed = -170;
+	jeremy.rotationSpeed = -1170;
 	jeremy.vel.x = -15;
     jeremy.bounciness = 0.9;
 	jeremy.rotationSpeed = -12;
