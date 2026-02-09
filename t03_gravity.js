@@ -18,7 +18,13 @@ function setup() {
 	bob.rotationSpeed = 2;
     bob.vel.x = 2;
 	
+	bill = new Sprite(180, 99, 30, 35, 'd');
+    bill.color = 'green';
+	bill.rotationSpeed = 2;
+	bill.vel.x = -3;
+
 }
+
 	
 /*******************************************************/
 // draw()
