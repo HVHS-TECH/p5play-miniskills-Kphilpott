@@ -30,7 +30,7 @@ function setup() {
 	ben.vel.y = -0.32;
 
 
-	platform_1 = new Sprite(100, 70, 5, 90, 'k');
+	platform_1 = new Sprite(100, 70, 5, 900, 'k');
 }
 
 	
