@@ -27,6 +27,7 @@ function setup() {
     ben.color = 'yellow';
 	ben.rotationSpeed = -61;
 	ben.vel.x = -0.02;
+	ben.vel.y = -0.32;
 
 }
 
