@@ -32,12 +32,12 @@ function setup() {
 	ben.vel.y = -0.32;
     ben.bounciness = 0.9;
 
-	jeb = new Sprite(300, 300, 20);
+	jeb = new Sprite(300, 300, 50);
 	jeb.color = 'purple';
 	jeb.rotationSpeed = 600;
 	jeb.vel.x = 12;
 	jeb.vel.y = 2;
-	jeb.bounciness = 20;
+	jeb.bounciness = 5;
 
 
 	platform_1 = new Sprite(2, 450, 5, 900, 'k');
