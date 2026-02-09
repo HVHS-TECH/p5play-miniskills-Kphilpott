@@ -59,6 +59,7 @@ function setup() {
 	platform_2 = new Sprite(450, 2, 900, 5, 'k');
 	platform_3 = new Sprite(898, 450, 5, 900, 'k');
 	platform_4 = new Sprite(450, 898, 900, 5, 'k');
+	console.log("Code, may you experience eternal pain");
 }
 
 	
