@@ -33,6 +33,7 @@ function setup() {
     ben.bounciness = 0.9
 
 	platform_1 = new Sprite(2, 450, 5, 900, 'k');
+	platform_2 = new Sprite(450, 2, 900, 5, 'k');
 }
 
 	
