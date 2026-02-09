@@ -37,7 +37,7 @@ function setup() {
 	jeb.rotationSpeed = 600;
 	jeb.vel.x = 12;
 	jeb.vel.y = 2;
-	jeb.bounciness = 5;
+	jeb.bounciness = 3;
 	jeb.friction = 5;
 	jeb.drag =1;
 
