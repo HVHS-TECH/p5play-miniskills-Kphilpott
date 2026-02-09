@@ -11,7 +11,7 @@ function setup() {
 	console.log("setup: idk");
     cnv = new Canvas(windowWidth, windowHeight);
 	world.gravity.y = 10;
-	bob = new Sprite(80, 99, 40, 55, 'd');
+	bob = new Sprite(80, 80, 40, 55, 'd');
 
     bob.color = 'red';
 
