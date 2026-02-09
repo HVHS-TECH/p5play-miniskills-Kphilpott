@@ -38,7 +38,8 @@ function setup() {
 	jeb.vel.x = 12;
 	jeb.vel.y = 2;
 	jeb.bounciness = 5;
-	jeb.friction = 1;
+	jeb.friction = 5;
+	jeb.drag = 2;
 
 
 	platform_1 = new Sprite(2, 450, 5, 900, 'k');
