@@ -11,19 +11,19 @@ function setup() {
 	console.log("setup: idk");
     cnv = new Canvas(windowWidth, windowHeight);
 	world.gravity.y = 10;
-	bob = new Sprite(80, 80, 40, 55, 'd');
+	bob = new Sprite(180, 80, 40, 55, 'd');
 
     bob.color = 'red';
 
 	bob.rotationSpeed = 2;
     bob.vel.x = 2;
 	
-	bill = new Sprite(280, 99, 30, 35, 'd');
+	bill = new Sprite(380, 99, 30, 35, 'd');
     bill.color = 'green';
 	bill.rotationSpeed = -12;
 	bill.vel.x = -6;
 
-	ben = new Sprite(100, 70, 30, 35, 'd');
+	ben = new Sprite(200, 70, 30, 35, 'd');
     ben.color = 'yellow';
 	ben.rotationSpeed = -61;
 	ben.vel.x = -0.02;
