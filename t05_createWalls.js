@@ -29,15 +29,12 @@ function setup() {
 
 	jeremy = new Sprite(500, 99, 30, 35, 'd');
     jeremy.color = 'black';
-<<<<<<< HEAD
 	jeremy.rotationSpeed = -70;
 	jeremy.vel.x = -15;
     jeremy.bounciness = 0.9;
-=======
 	jeremy.rotationSpeed = -12;
 	jeremy.vel.x = -6;
     jeremy.bounciness = 0.3;
->>>>>>> 29d3a29d69428f4ee18aa7c8ac1c01d231ba3eb8
 	jeremy.drag = 1;
 
 	ben = new Sprite(200, 70, 30, 35, 'd');
