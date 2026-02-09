@@ -23,6 +23,11 @@ function setup() {
 	bill.rotationSpeed = -12;
 	bill.vel.x = -6;
 
+	ben = new Sprite(100, 99, 30, 35, 'd');
+    ben.color = 'yellow';
+	ben.rotationSpeed = -61;
+	ben.vel.x = -0.2;
+
 }
 
 	
