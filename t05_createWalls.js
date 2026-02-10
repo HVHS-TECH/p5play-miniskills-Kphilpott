@@ -20,6 +20,7 @@ function setup() {
     bob.vel.x = 3;
 	bob.bounciness = 0.6;
 	bob.drag = 1;
+    console.log("setup: bob armed");
 
 	bill = new Sprite(380, 99, 24, 39, 'd');
     bill.color = 'green';
@@ -27,6 +28,7 @@ function setup() {
 	bill.vel.x = -7;
     bill.bounciness = 0.4;
 	bill.drag = 1;
+	console.log("setup: bill armed");
 
 	jeremy = new Sprite(500, 99, 35, 35, 'd');
     jeremy.color = 'black';
@@ -37,6 +39,7 @@ function setup() {
 	jeremy.vel.x = -6;
     jeremy.bounciness = 0.5;
 	jeremy.drag = 1;
+	console.log("setup: jeremy armed");
 
 	ben = new Sprite(200, 70, 35, 25, 'd');
     ben.color = 'yellow';
@@ -45,6 +48,7 @@ function setup() {
 	ben.vel.y = -0.32;
     ben.bounciness = 0.9;
     ben.drag = 1;
+	console.log("setup: ben armed");
 
 	jeb = new Sprite(300, 300, 50);
 	jeb.color = 'purple';
@@ -54,12 +58,14 @@ function setup() {
 	jeb.bounciness = 1;
 	jeb.friction = 3;
 	jeb.drag = 1;
+	console.log("setup: tactical jeb armed");
 
 
 	platform_1 = new Sprite(2, 450, 5, 900, 'k');
 	platform_2 = new Sprite(450, 2, 900, 5, 'k');
 	platform_3 = new Sprite(898, 450, 5, 900, 'k');
 	platform_4 = new Sprite(450, 898, 900, 5, 'k');
+	console.log("setup: walls placed");
 	console.log("Code, may you experience eternal pain");
 
 
