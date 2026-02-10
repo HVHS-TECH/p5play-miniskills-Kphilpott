@@ -10,7 +10,7 @@
 
 function setup() {
 	console.log("setup: idk");
-    cnv = new Canvas(900, 900);
+    cnv = new canvas(900, 900);
 	world.gravity.y = 10;
 	bob = new Sprite(180, 80, 40, 55, 'd');
 
