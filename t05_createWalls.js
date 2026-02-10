@@ -66,7 +66,7 @@ function setup() {
 	john.vel.x = 12;
 	john.vel.y = 2;
 	john.bounciness = 1;
-	john.friction = 3;
+	john.friction = 1.1;
 	john.drag = 1;
 	console.log("setup: john armed");
 
