@@ -8,9 +8,7 @@
 // setup()
 /*******************************************************/
 //temporary test:
-let sprite;
-let dragging = true; // Track if sprite is being dragged
-let offsetX = 0, offsetY = 0; // Mouse offset from sprite center
+
 //temp test end
 
 function setup() {
@@ -67,7 +65,9 @@ function setup() {
 	platform_4 = new Sprite(450, 898, 900, 5, 'k');
 	console.log("Code, may you experience eternal pain");
 
-
+let sprite;
+let dragging = true; // Track if sprite is being dragged
+let offsetX = 0, offsetY = 0; // Mouse offset from sprite center
 
 }
 
