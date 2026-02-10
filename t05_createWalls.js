@@ -64,8 +64,8 @@ function setup() {
 	john.color = 'brown';
 	john.rotationSpeed = 600;
 	john.vel.x = -12;
-	john.vel.y = 12;
-	john.bounciness = 1;
+	john.vel.y = -12;
+	john.bounciness = 1.5;
 	john.friction = 1.1;
 	john.drag = 1;
 	console.log("setup: john armed");
