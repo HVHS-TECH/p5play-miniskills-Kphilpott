@@ -32,7 +32,7 @@ function setup() {
     jeremy.color = 'black';
 	jeremy.rotationSpeed = -1170;
 	jeremy.vel.x = -15;
-    jeremy.bounciness = 0.9;
+    jeremy.bounciness = -0.9;
 	jeremy.rotationSpeed = -12;
 	jeremy.vel.x = -6;
     jeremy.bounciness = 0.5;
