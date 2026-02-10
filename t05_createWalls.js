@@ -63,8 +63,8 @@ function setup() {
 	john = new Sprite(175, 250, 35);
 	john.color = 'brown';
 	john.rotationSpeed = 600;
-	john.vel.x = 12;
-	john.vel.y = 2;
+	john.vel.x = -12;
+	john.vel.y = 12;
 	john.bounciness = 1;
 	john.friction = 1.1;
 	john.drag = 1;
