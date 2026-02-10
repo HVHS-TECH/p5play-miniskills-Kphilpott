@@ -18,7 +18,7 @@ function setup() {
 
 	bob.rotationSpeed = 2;
     bob.vel.x = 2;
-	bob.bounciness = 0.1;
+	bob.bounciness = 0.6;
 	bob.drag = 1;
 
 	bill = new Sprite(380, 99, 30, 35, 'd');
