@@ -7,9 +7,6 @@
 /*******************************************************/
 // setup()
 /*******************************************************/
-//temporary test:
-
-//temp test end
 
 function setup() {
 	console.log("setup: idk");
@@ -65,9 +62,7 @@ function setup() {
 	platform_4 = new Sprite(450, 898, 900, 5, 'k');
 	console.log("Code, may you experience eternal pain");
 
-let sprite;
-let dragging = true; // Track if sprite is being dragged
-let offsetX = 0, offsetY = 0; // Mouse offset from sprite center
+
 
 }
 
@@ -80,37 +75,9 @@ let offsetX = 0, offsetY = 0; // Mouse offset from sprite center
 function draw() {
 	background('white');
 
-
-
-
-
-	//experiment! not final!
-	if (dragging) {
-    sprite.position.x = mouseX - offsetX;
-    sprite.position.y = mouseY - offsetY;
-  }
 }
 
 
 /*******************************************************/
 //  END OF APP
 /*******************************************************/
-
-
-
-//test
-function mousePressed() {
-  // Check if mouse is over the sprite
-  if (mouseX > sprite.position.x - sprite.width / 2 &&
-      mouseX < sprite.position.x + sprite.width / 2 &&
-      mouseY > sprite.position.y - sprite.height / 2 &&
-      mouseY < sprite.position.y + sprite.height / 2) {
-    dragging = true;
-    // Store offset so sprite doesn't "jump" to mouse center
-    offsetX = mouseX - sprite.position.x;
-    offsetY = mouseY - sprite.position.y;
-  }
-}
-function mouseReleased() {
-  dragging = false;
-}
