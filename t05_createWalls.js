@@ -60,6 +60,16 @@ function setup() {
 	jeb.drag = 1;
 	console.log("setup: tactical jeb armed");
 
+	john = new Sprite(250, 250, 35);
+	john.color = 'brown';
+	john.rotationSpeed = 600;
+	john.vel.x = 12;
+	john.vel.y = 2;
+	john.bounciness = 1;
+	john.friction = 3;
+	john.drag = 1;
+	console.log("setup: john armed");
+
 
 	platform_1 = new Sprite(2, 450, 5, 900, 'k');
 	platform_2 = new Sprite(450, 2, 900, 5, 'k');
