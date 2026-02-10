@@ -24,7 +24,7 @@ function setup() {
 	bill = new Sprite(380, 99, 24, 39, 'd');
     bill.color = 'green';
 	bill.rotationSpeed = -12;
-	bill.vel.x = -6;
+	bill.vel.x = -7;
     bill.bounciness = 0.4;
 	bill.drag = 1;
 
