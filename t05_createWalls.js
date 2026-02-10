@@ -10,7 +10,7 @@
 
 function setup() {
 	console.log("setup: idk");
-    cnv = new Canvas(900, 900);
+    cnv = new Canvas(900, 900);   //why does it not work on the actual site now????
 	world.gravity.y = 10;
 	bob = new Sprite(180, 80, 40, 55, 'd');
 
@@ -92,7 +92,6 @@ function setup() {
 /*******************************************************/
 function draw() {
 	background('white');
-
 }
 
 
