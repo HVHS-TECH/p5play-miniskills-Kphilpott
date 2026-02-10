@@ -16,7 +16,7 @@ function setup() {
 
     bob.color = 'red';
 
-	bob.rotationSpeed = 2;
+	bob.rotationSpeed = 20;
     bob.vel.x = 3;
 	bob.bounciness = 0.6;
 	bob.drag = 1;
