@@ -9,7 +9,7 @@
 /*******************************************************/
 
 function setup() {
-	console.log("setup: idk");
+	console.log("setup: wekonfgownfg");
     cnv = new Canvas(900, 900);   //why does it not work on the actual site now????
 	world.gravity.y = 10;
 	bob = new Sprite(180, 80, 40, 55, 'd');
@@ -60,7 +60,7 @@ function setup() {
 	jeb.drag = 1;
 	console.log("setup: tactical jeb armed");
 
-	john = new Sprite(175, 250, 35);
+	john = new Sprite(200, 250, 35);
 	john.color = 'brown';
 	john.rotationSpeed = 600;
 	john.vel.x = -12;
