@@ -75,7 +75,7 @@ function setup() {
 	platform_2 = new Sprite(450, 2, 900, 5, 'k');
 	platform_3 = new Sprite(898, 450, 5, 900, 'k');
 	platform_4 = new Sprite(450, 898, 900, 5, 'k');
-	platform_5 = new Sprite(370, 600, 400, 9, 'k');
+	platform_5 = new Sprite(285, 600, 400, 9, 'k');
 	platform_5.rotation = 15
 	platform_6 = new Sprite(550, 400, 250, 9, 'k');
 	platform_6.rotation = -19
