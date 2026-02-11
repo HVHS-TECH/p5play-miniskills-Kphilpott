@@ -19,14 +19,14 @@ function setup() {
 	bob.rotationSpeed = 20;
     bob.vel.x = 3;
 	bob.bounciness = 0.6;
-	bob.drag = 1;
+	bob.drag = 0.6;
     console.log("setup: bob armed");
 
 	bill = new Sprite(380, 99, 24, 39, 'd');
     bill.color = 'green';
 	bill.rotationSpeed = -12;
 	bill.vel.x = -7;
-    bill.bounciness = 0.4;
+    bill.bounciness = 0.7;
 	bill.drag = 1;
 	console.log("setup: bill armed");
 
@@ -37,7 +37,7 @@ function setup() {
     jeremy.bounciness = 0.9;
 	jeremy.rotationSpeed = -12;
 	jeremy.vel.x = -6;
-    jeremy.bounciness = 0.5;
+    jeremy.bounciness = 0.7;
 	jeremy.drag = 1;
 	console.log("setup: jeremy armed");
 
@@ -65,7 +65,7 @@ function setup() {
 	john.rotationSpeed = 600;
 	john.vel.x = -12;
 	john.vel.y = -12;
-	john.bounciness = 1.5;
+	john.bounciness = 1.2;
 	john.friction = 1.1;
 	john.drag = 1;
 	console.log("setup: john armed");
@@ -75,10 +75,16 @@ function setup() {
 	platform_2 = new Sprite(450, 2, 900, 5, 'k');
 	platform_3 = new Sprite(898, 450, 5, 900, 'k');
 	platform_4 = new Sprite(450, 898, 900, 5, 'k');
-	platform_5 = new Sprite(285, 600, 400, 9, 'k');
-	platform_5.rotation = 15
-	platform_6 = new Sprite(550, 400, 250, 9, 'k');
+	platform_5 = new Sprite(235, 600, 400, 9, 'k');
+	platform_5.rotation = 30
+	platform_6 = new Sprite(560, 400, 250, 9, 'k');
 	platform_6.rotation = -19
+	spinner_1 = new Sprite(450, 680, 450, 9, 'k');
+	spinner_1.rotationSpeed = 0.8
+	spinner_2 = new Sprite(5, 895, 225, 9, 'k');
+	spinner_2.rotationSpeed = -4
+	spinner_3 = new Sprite(870, 895, 225, 9, 'k');
+	spinner_3.rotationSpeed = 4
 	console.log("setup: walls placed");
 	console.log("Code, may you experience eternal pain");
 
