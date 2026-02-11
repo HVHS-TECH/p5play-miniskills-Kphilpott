@@ -77,6 +77,8 @@ function setup() {
 	platform_4 = new Sprite(450, 898, 900, 5, 'k');
 	platform_5 = new Sprite(450, 600, 400, 9, 'k');
 	platform_5.rotation = 15
+	platform_6 = new Sprite(350, 600, 250, 9, 'k');
+	platform_6.rotation = -19
 	console.log("setup: walls placed");
 	console.log("Code, may you experience eternal pain");
 
