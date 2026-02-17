@@ -112,7 +112,7 @@ function setup() {
 	platform_7.rotation = -30
 	spinner_1 = new Sprite(450, 680, 500, 9, 'k');
 	spinner_1.rotationSpeed = 1.9
-	spinner_2 = new Sprite(-10, 895, 350, 9, 'k');
+	spinner_2 = new Sprite(-10, 895, 350, 3, 'k');
 	spinner_2.rotationSpeed = -3.5
 	spinner_3 = new Sprite(890, 895, 230, 9, 'k');
 	spinner_3.rotationSpeed = -5
