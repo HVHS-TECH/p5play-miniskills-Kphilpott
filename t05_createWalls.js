@@ -16,15 +16,15 @@ function setup() {
 
     bob.color = 'red';
 
-	bob.rotationSpeed = 20;
-    bob.vel.x = 3;
-	bob.bounciness = 0.8;
+	bob.rotationSpeed = -22;
+    bob.vel.x = 1;
+	bob.bounciness = 0.7;
 	bob.drag = 0.6;
     console.log("setup: bob armed");
 
-	bill = new Sprite(380, 99, 24, 39, 'd');
+	bill = new Sprite(380, 99, 28, 43, 'd');
     bill.color = 'green';
-	bill.rotationSpeed = -12;
+	bill.rotationSpeed = -52;
 	bill.vel.x = -7;
     bill.bounciness = 0.9;
 	bill.drag = 1;
@@ -43,7 +43,7 @@ function setup() {
 
 	ben = new Sprite(200, 70, 35, 25, 'd');
     ben.color = 'yellow';
-	ben.rotationSpeed = -61;
+	ben.rotationSpeed = -600;
 	ben.vel.x = -0.02;
 	ben.vel.y = -0.32;
     ben.bounciness = 1.3;
@@ -70,23 +70,35 @@ function setup() {
 	john.drag = 1;
 	console.log("setup: john armed");
 
+	britton = new Sprite(775, 250, 35, 65);
+	britton.color = 'gray';
+	britton.rotationSpeed = 600;
+	britton.vel.x = -2;
+	britton.vel.y = -22;
+	britton.bounciness = 0.9;
+	britton.friction = 0.8;
+	britton.drag = 0.5;
+	console.log("setup: britton armed");
 
-	platform_1 = new Sprite(2, 450, 7, 900, 'k');
-	platform_2 = new Sprite(450, 2, 900, 7, 'k');
-	platform_3 = new Sprite(898, 450, 7, 900, 'k');
-	platform_4 = new Sprite(450, 898, 900, 7, 'k');
-	platform_5 = new Sprite(235, 600, 400, 9, 'k');
-	platform_5.rotation = 30
+
+	platform_1 = new Sprite(2, 450, 15, 900, 'k');
+	platform_2 = new Sprite(450, 2, 900, 15, 'k');
+	platform_3 = new Sprite(898, 450, 15, 900, 'k');
+	platform_4 = new Sprite(450, 898, 900, 15, 'k');
+	platform_5 = new Sprite(235, 600, 300, 9, 'k');
+	platform_5.rotation = 45
+	platform_under5 = new Sprite(235, 730, 300, 9, 'k');
+	platform_under5.rotation = 45
 	platform_6 = new Sprite(560, 400, 250, 9, 'k');
 	platform_6.rotation = -19
 	platform_7 = new Sprite(735, 600, 225, 9, 'k');
 	platform_7.rotation = -30
 	spinner_1 = new Sprite(450, 680, 450, 9, 'k');
-	spinner_1.rotationSpeed = 0.9
-	spinner_2 = new Sprite(-10, 895, 350, 9, 'k');
-	spinner_2.rotationSpeed = -5
-	spinner_3 = new Sprite(870, 895, 230, 9, 'k');
-	spinner_3.rotationSpeed = 7
+	spinner_1.rotationSpeed = 1.9
+	spinner_2 = new Sprite(-10, 895, 250, 9, 'k');
+	spinner_2.rotationSpeed = -3.5
+	spinner_3 = new Sprite(890, 895, 230, 9, 'k');
+	spinner_3.rotationSpeed = -5
 	console.log("setup: walls placed");
 	console.log("Code, may you experience eternal pain");
 
