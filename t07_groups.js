@@ -103,7 +103,7 @@ function setup() {
 	platform_6.rotation = -19
 	platform_7 = new Sprite(735, 600, 225, 9, 'k');
 	platform_7.rotation = -30
-	spinner_1 = new Sprite(450, 680, 450, 9, 'k');
+	spinner_1 = new Sprite(450, 680, 500, 9, 'k');
 	spinner_1.rotationSpeed = 1.9
 	spinner_2 = new Sprite(-10, 895, 350, 9, 'k');
 	spinner_2.rotationSpeed = -3.5
@@ -121,7 +121,7 @@ function setup() {
 
 function aliens() {
 
-	for (i = 0; i < 35; i++) {
+	for (i = 0; i < 50; i++) {
 
 
 		
