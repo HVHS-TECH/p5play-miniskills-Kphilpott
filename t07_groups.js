@@ -121,11 +121,11 @@ function setup() {
 
 function aliens() {
 
-	for (i = 0; i < 50; i++) {
+	for (i = 0; i < 75; i++) {
 
 
 		
-  alien = new Sprite(450, 450, 20);
+  alien = new Sprite(random(425, 475), random(425, 475), 20);
 
   alien.vel.x = random(4, 7) * random(VELARRAY);
 
