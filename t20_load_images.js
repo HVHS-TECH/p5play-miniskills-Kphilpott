@@ -14,9 +14,9 @@ const VELARRAY = [-1, 1];
 
 function preload() {
 
-  imgBG = loadImage('space.png');
+  imgBG = loadImage('../assets/images/space.png');
 
-  imgFace = loadImage('face.png');
+  imgFace = loadImage('../assets/images/face.png');
 
 }
 
@@ -104,11 +104,10 @@ function setup() {
 	console.log("setup: britton armed");
 
 
-	ball_1 = new Sprite(width/2, height/2, 50, 'd');
-    ball_1.bounciness = 1;
-    ball_1.friction   = 0;
+	ball_1 = new Sprite(250, 250, 50, 'd');
+    ball_1.bounciness = 0.7;
+    ball_1.friction   = 0.9;
     ball_1.image = (imgFace);
-    imgFace.resize(50, 50);
     playerGroup.add(ball_1);
 
 
@@ -148,7 +147,7 @@ function setup() {
 
 function aliens() {
 
-	for (i = 0; i < 100; i++) {
+	for (i = 0; i < 239; i++) {
 
 
 		
@@ -186,6 +185,7 @@ _alien.remove();
 /*******************************************************/
 function draw() {
 	background(imgBG);
+	imgFace.resize(50, 50);
 }
 
 /*******************************************************/
