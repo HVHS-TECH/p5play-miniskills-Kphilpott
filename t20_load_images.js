@@ -12,7 +12,18 @@
 /*******************************************************/
 const VELARRAY = [-1, 1];
 
+function preload() {
+
+  imgBG = loadImage('space.png');
+
+  imgFace = loadImage('face.png');
+
+}
+
+
 function setup() {
+	preload();
+	console.log("Images Preloaded");
 	console.log("setup: wekonfgownfg");
     cnv = new Canvas(900, 900);   //why does it not work on the actual site now????
 	world.gravity.y = 10;
@@ -93,6 +104,12 @@ function setup() {
 	console.log("setup: britton armed");
 
 
+	ball_1 = new Sprite(width/2, height/2, 50, 'd');
+    ball_1.bounciness = 1;
+    ball_1.friction   = 0;
+    ball_1.image = (imgFace);
+    imgFace.resize(50, 50);
+    playerGroup.add(ball_1);
 
 
 
@@ -119,10 +136,13 @@ function setup() {
 	console.log("setup: walls placed");
 	console.log("Code, may you experience eternal pain");
 
+
+   
+
 // Create a group for the aliens and spawn them
     alienGroup = new Group();
     aliens();
-	console.log("Aliens Spawned")
+	console.log("Aliens Spawned");
 
 }
 
@@ -165,7 +185,7 @@ _alien.remove();
 // draw()
 /*******************************************************/
 function draw() {
-	background('white');
+	background(imgBG);
 }
 
 /*******************************************************/
