@@ -25,7 +25,7 @@ function setup() {
     cnv = new Canvas(900, 900);   //why does it not work on the actual site now????
 	world.gravity.y = 10;
 	playerGroup = new Group();
-	bob = new Sprite(180, 80, 40, 55, 'd');
+	bob = new Sprite(180, 80, 40, 55, 'd');
 
     bob.color = 'red';
 
@@ -43,7 +43,7 @@ function setup() {
     bill.bounciness = 0.9;
 	bill.drag = 1;
 	playerGroup.add(bill);
-	console.log("setup: bill armed");
+	console.log("setup: bill armed");
 
 	jeremy = new Sprite(500, 99, 33, 33, 'd');
     jeremy.color = 'black';
@@ -64,7 +64,7 @@ function setup() {
 	ben.vel.y = -0.32;
     ben.bounciness = 1.3;
     ben.drag = 1;
-	playerGroup.add(ben);
+	playerGroup.add(ben);
 	console.log("setup: ben armed");
 
 	jeb = new Sprite(300, 300, 50);
