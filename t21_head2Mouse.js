@@ -25,80 +25,8 @@ function setup() {
     cnv = new Canvas(900, 900);   //why does it not work on the actual site now????
 	world.gravity.y = 10;
 	playerGroup = new Group();
-	bob = new Sprite(180, 80, 40, 55, 'd');
 
-    bob.color = 'red';
 
-	bob.rotationSpeed = -22;
-    bob.vel.x = 1;
-	bob.bounciness = 0.7;
-	bob.drag = 0.6;
-	playerGroup.add(bob);
-    console.log("setup: bob armed");
-
-	bill = new Sprite(380, 99, 28, 43, 'd');
-    bill.color = 'green';
-	bill.rotationSpeed = -52;
-	bill.vel.x = -7;
-    bill.bounciness = 0.9;
-	bill.drag = 1;
-	playerGroup.add(bill);
-	console.log("setup: bill armed");
-
-	jeremy = new Sprite(500, 99, 33, 33, 'd');
-    jeremy.color = 'black';
-	jeremy.rotationSpeed = -1170;
-	jeremy.vel.x = -15;
-    jeremy.bounciness = 0.9;
-	jeremy.rotationSpeed = -12;
-	jeremy.vel.x = -6;
-    jeremy.bounciness = 0.7;
-	jeremy.drag = 1;
-	playerGroup.add(jeremy);
-	console.log("setup: jeremy armed");
-
-	ben = new Sprite(200, 70, 35, 25, 'd');
-    ben.color = 'yellow';
-	ben.rotationSpeed = -600;
-	ben.vel.x = -0.02;
-	ben.vel.y = -0.32;
-    ben.bounciness = 1.3;
-    ben.drag = 1;
-	playerGroup.add(ben);
-	console.log("setup: ben armed");
-
-	jeb = new Sprite(300, 300, 50);
-	jeb.color = 'purple';
-	jeb.rotationSpeed = 600;
-	jeb.vel.x = 12;
-	jeb.vel.y = 2;
-	jeb.bounciness = 1;
-	jeb.friction = 3;
-	jeb.drag = 1;
-	playerGroup.add(jeb);
-	console.log("setup: tactical jeb armed");
-
-	john = new Sprite(475, 250, 35);
-	john.color = 'brown';
-	john.rotationSpeed = 600;
-	john.vel.x = -12;
-	john.vel.y = -12;
-	john.bounciness = 1.2;
-	john.friction = 1.1;
-	john.drag = 1;
-	playerGroup.add(john);
-	console.log("setup: john armed");
-
-	britton = new Sprite(775, 250, 35, 65);
-	britton.color = 'gray';
-	britton.rotationSpeed = 600;
-	britton.vel.x = -2;
-	britton.vel.y = -22;
-	britton.bounciness = 0.9;
-	britton.friction = 0.8;
-	britton.drag = 0.5;
-	playerGroup.add(britton);
-	console.log("setup: britton armed");
 
 
 	ball_1 = new Sprite(250, 250, 50, 'd');
